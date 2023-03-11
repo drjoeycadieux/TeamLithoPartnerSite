@@ -1,13 +1,13 @@
+<script setup>
+import TheWelcome from "../../../components/TheWelcome.vue";
+</script>
+
 <template>
   <div class="partner-site">
     <TheWelcome />
     <h1>This is an PartnerSite page. Coming Soon!</h1>
   </div>
 </template>
-
-<script setup>
-import TheWelcome from "../../../components/TheWelcome.vue";
-</script>
 
 <style>
 @media (min-width: 1024px) {

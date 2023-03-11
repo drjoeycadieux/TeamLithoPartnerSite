@@ -1,13 +1,13 @@
+<script setup>
+import TheWelcomeVue from "../../components/TheWelcome.vue";
+</script>
+
 <template>
   <div class="legal-info">
     <TheWelcomeVue />
     <h1>This is an legal info page.</h1>
   </div>
 </template>
-
-<script setup>
-import TheWelcomeVue from "../../components/TheWelcome.vue";
-</script>
 
 <style>
 @media (min-width: 1024px) {
