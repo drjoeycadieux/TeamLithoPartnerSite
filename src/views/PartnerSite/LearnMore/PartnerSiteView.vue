@@ -1,7 +1,7 @@
 <template>
   <div class="partner-site">
     <TheWelcome />
-    <h1>This is an PartnerSite page</h1>
+    <h1>This is an PartnerSite page. Coming Soon!</h1>
   </div>
 </template>
 

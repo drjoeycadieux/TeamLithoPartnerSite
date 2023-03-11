@@ -1,7 +1,7 @@
 <template>
   <div class="legal-info">
     <TheWelcomeVue />
-    <h1>This is an legal info page</h1>
+    <h1>This is an legal info page.</h1>
   </div>
 </template>
 

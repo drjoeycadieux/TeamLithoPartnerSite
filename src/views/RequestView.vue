@@ -1,13 +1,13 @@
-<template>
-  <div class="request">
-    <TheWelcomeVue />
-    <h1>This is an request page</h1>
-  </div>
-</template>
-
 <script setup>
 import TheWelcomeVue from "../components/TheWelcome.vue";
 </script>
+
+<template>
+  <div class="request">
+    <TheWelcomeVue />
+    <h1>This is an request page.</h1>
+  </div>
+</template>
 
 <style>
 @media (min-width: 1024px) {

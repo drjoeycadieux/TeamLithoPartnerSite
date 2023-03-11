@@ -1,10 +1,12 @@
 <script setup>
 import TheWelcome from "../components/TheWelcome.vue";
 import FooterModule from "../components/FooterModule.vue";
+import Notibanner from "../components/Notibanner.vue";
 </script>
 
 <template>
   <div>
+    <Notibanner />
     <TheWelcome />
     <br />
     <div class="box-msg">
