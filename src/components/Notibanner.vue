@@ -15,7 +15,7 @@
 <style scoped>
 .notifbanner {
   padding: 10px;
-  background-color: #0000ff;
+  background-color: dodgerblue;
 }
 
 .notifbanner p {
