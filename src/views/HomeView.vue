@@ -1,7 +1,16 @@
-<script setup>
+<script>
 import TheWelcome from "../components/TheWelcome.vue";
 import FooterModule from "../components/FooterModule.vue";
 import Notibanner from "../components/Notibanner.vue";
+
+import moment from "moment";
+export default {
+  computed: {
+    GetHours() {
+      return moment().format("MMM Do YY");
+    },
+  },
+};
 </script>
 
 <template>
@@ -10,6 +19,7 @@ import Notibanner from "../components/Notibanner.vue";
     <TheWelcome />
     <br />
     <div class="box-msg">
+      <p>Time Is: {{ GetHours() }}</p>
       <p>
         <span
           ><i
