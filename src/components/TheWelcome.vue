@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <div class="header-welcome">
     <ul>
@@ -33,5 +35,3 @@
     </ul>
   </div>
 </template>
-
-<script setup></script>

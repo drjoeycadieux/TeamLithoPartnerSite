@@ -1,3 +1,7 @@
+<script setup>
+import TheWelcomeVue from "../../components/TheWelcome.vue";
+</script>
+
 <template>
   <div class="issues">
     <TheWelcomeVue />
@@ -14,10 +18,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import TheWelcomeVue from "../../components/TheWelcome.vue";
-</script>
 
 <style>
 .container {
