@@ -2,6 +2,7 @@
 import TheWelcome from "../components/TheWelcome.vue";
 import FooterModule from "../components/FooterModule.vue";
 import Notibanner from "../components/Notibanner.vue";
+import DataBoxes from "../components/DataBoxes.vue";
 </script>
 
 <template>
@@ -35,6 +36,8 @@ import Notibanner from "../components/Notibanner.vue";
         </router-link>
       </p>
     </div>
+    <br />
+    <DataBoxes />
     <br />
     <div class="homeIndex">
       <h1>
