@@ -1,13 +1,23 @@
-<script setup></script>
+<script>
+import AlertList from "../assets/alert/AlertsList.js";
+
+export default {
+  data() {
+    return {
+      AlertList: AlertList,
+      AlertList: AlertList,
+    };
+  },
+};
+</script>
 
 <template>
   <div class="notifbanner">
-    <p>
+    <p v-for="AlertList in AlertList" :key="index">
       <span style="font-size: 25px; color: white">
         <i class="bi bi-info-square-fill"></i>
       </span>
-      In june 8 2023, A major update will be released for the entire network of
-      TeamLitho LLC.
+      {{ AlertList.TextInfo }}
     </p>
   </div>
 </template>
@@ -21,7 +31,7 @@
 .notifbanner p {
   color: white;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 20px;
   text-align: center;
 }
