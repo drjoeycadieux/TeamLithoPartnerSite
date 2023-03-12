@@ -18,11 +18,17 @@ export default {
       <p v-for="PartnerList in PartnerList" :key="PartnerList.name">
         Data Listed. {{ PartnerList.Name }}
       </p>
+      <div v-for="PartnerList in PartnerList" :key="index">
+        <span>{{ PartnerList.Description }}</span>
+      </div>
     </div>
     <div class="boxes2">
       <p v-for="PartnerShip in PartnerShip" :key="PartnerShip.Name">
         Data Listed. {{ PartnerShip.Name }}
       </p>
+      <div v-for="PartnerShip in PartnerShip" :key="index">
+        <span>{{ PartnerShip.Description }}</span>
+      </div>
     </div>
   </div>
 </template>
