@@ -21,11 +21,11 @@
         <router-link
           style="
             background-color: orange;
-            padding: 4px;
+            padding: 5px;
             margin-bottom: 8px;
             border-radius: 5px;
             color: black;
-            font-weight: normal;
+            font-weight: bold;
           "
           class="leftSide"
           to="/request"
