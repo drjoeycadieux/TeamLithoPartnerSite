@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .data-boxes {
-  padding: 15px;
+  padding: 45px;
   display: flex;
   justify-content: space-between;
 }
