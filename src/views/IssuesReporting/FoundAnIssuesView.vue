@@ -1,5 +1,6 @@
 <script setup>
 import TheWelcomeVue from "../../components/TheWelcome.vue";
+import FooterModule from "../../components/FooterModule.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import TheWelcomeVue from "../../components/TheWelcome.vue";
         >Chargement en cours…</iframe
       >
     </div>
+    <FooterModule />
   </div>
 </template>
 
