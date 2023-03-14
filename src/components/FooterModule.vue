@@ -1,3 +1,13 @@
+<script>
+export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear(),
+    };
+  },
+};
+</script>
+
 <template>
   <div>
     <div class="footer-module">
@@ -25,13 +35,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      currentYear: new Date().getFullYear(),
-    };
-  },
-};
-</script>
