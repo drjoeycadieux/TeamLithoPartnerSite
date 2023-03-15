@@ -16,7 +16,7 @@ export default {
   <div class="data-boxes">
     <div class="boxes1">
       <p v-for="PartnerList in PartnerList" :key="PartnerList.name">
-        Data Listed. {{ PartnerList.Name }}
+        Partner List. {{ PartnerList.Name }}
       </p>
       <div v-for="PartnerList in PartnerList" :key="index">
         <span>{{ PartnerList.Description }}</span>
@@ -24,7 +24,7 @@ export default {
     </div>
     <div class="boxes2">
       <p v-for="PartnerShip in PartnerShip" :key="PartnerShip.Name">
-        Data Listed. {{ PartnerShip.Name }}
+       Partner List. {{ PartnerShip.Name }}
       </p>
       <div v-for="PartnerShip in PartnerShip" :key="index">
         <span>{{ PartnerShip.Description }}</span>
