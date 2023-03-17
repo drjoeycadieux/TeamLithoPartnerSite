@@ -22,3 +22,18 @@ export default {
     </p>
   </div>
 </template>
+
+<style>
+.footer {
+  padding: 15px;
+  background-color: #2c3e50;
+}
+
+.text-info {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+</style>
