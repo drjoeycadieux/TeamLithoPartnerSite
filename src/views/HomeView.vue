@@ -1,7 +1,15 @@
-<script setup>
+<script>
 import Navbar from "../components/Navbar.vue";
 import Notibanner from "../components/Notibanner.vue";
 import DataBoxes from "../components/DataBoxes.vue";
+
+export default {
+  methods: {
+    currentYear() {
+      return new Date().getFullYear();
+    },
+  },
+};
 </script>
 
 <template>
@@ -63,6 +71,11 @@ import DataBoxes from "../components/DataBoxes.vue";
         products and services
       </h1>
     </div>
-    <FooterModule />
+    <div class="footer-module">
+      <p>
+        &copy; Copyright 2021 - {{ currentYear() }} TeamLitho | PartnerSite. All
+        Right Reserved.
+      </p>
+    </div>
   </div>
 </template>

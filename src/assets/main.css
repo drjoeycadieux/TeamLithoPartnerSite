@@ -92,15 +92,13 @@
   background-color: lightgray;
 }
 
-.footer {
-  padding: 15px;
-  background-color: #2c3e50;
+.footer-module {
+  padding: 25px;
+  background-color: #404a59;
 }
 
-.text-info {
-  color: white;
+.footer-module p {
+  text-align: center;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 20px;
-  text-align: center;
 }
