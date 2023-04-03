@@ -4,10 +4,10 @@ import Notibanner from "../components/Notibanner.vue";
 import DataBoxes from "../components/DataBoxes.vue";
 
 export default {
-  methods: {
-    currentYear() {
-      return new Date().getFullYear();
-    },
+  data() {
+    return {
+      currentYear: new Date().getFullYear(),
+    };
   },
 };
 </script>
