@@ -1,10 +1,10 @@
 <script setup>
-import TheWelcome from "../../../components/TheWelcome.vue";
+import Navbar from "../../../components/Navbar.vue";
 </script>
 
 <template>
   <div class="partner-site">
-    <TheWelcome />
+    <Navbar />
     <h1>This is an PartnerSite page. Coming Soon!</h1>
   </div>
 </template>

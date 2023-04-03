@@ -1,10 +1,10 @@
 <script setup>
-import TheWelcomeVue from "../components/TheWelcome.vue";
+import Navbar from "../components/Navbar.vue";
 </script>
 
 <template>
   <div class="contact">
-    <TheWelcomeVue />
+    <Navbar />
     <h1>This is an contact page</h1>
   </div>
 </template>

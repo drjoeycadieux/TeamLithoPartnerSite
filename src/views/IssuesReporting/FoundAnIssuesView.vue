@@ -1,11 +1,10 @@
 <script setup>
-import TheWelcomeVue from "../../components/TheWelcome.vue";
-import FooterModule from "../../components/FooterModule.vue";
+import Navbar from "../../components/Navbar.vue";
 </script>
 
 <template>
   <div class="issues">
-    <TheWelcomeVue />
+    <Navbar />
     <div class="container">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSeF3CJoZjzQqHrQ9QCBY7aMJ1BSk-fVh-jSad2LAPCtbw125w/viewform?embedded=true"
@@ -17,7 +16,6 @@ import FooterModule from "../../components/FooterModule.vue";
         >Chargement en cours…</iframe
       >
     </div>
-    <FooterModule />
   </div>
 </template>
 
