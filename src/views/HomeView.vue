@@ -1,6 +1,5 @@
 <script setup>
-import TheWelcome from "../components/TheWelcome.vue";
-import FooterModule from "../components/FooterModule.vue";
+import Navbar from "../components/Navbar.vue";
 import Notibanner from "../components/Notibanner.vue";
 import DataBoxes from "../components/DataBoxes.vue";
 </script>
@@ -8,7 +7,7 @@ import DataBoxes from "../components/DataBoxes.vue";
 <template>
   <div>
     <Notibanner />
-    <TheWelcome />
+    <Navbar />
     <br />
     <div class="box-msg">
       <p>
