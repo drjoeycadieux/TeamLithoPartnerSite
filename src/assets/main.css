@@ -91,14 +91,3 @@
   text-align: center;
   background-color: lightgray;
 }
-
-.footer-module {
-  padding: 25px;
-  background-color: #404a59;
-}
-
-.footer-module p {
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
-}

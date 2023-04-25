@@ -71,11 +71,5 @@ export default {
         products and services
       </h1>
     </div>
-    <div class="footer-module">
-      <p>
-        &copy; Copyright 2021 - {{ currentYear() }} TeamLitho | PartnerSite. All
-        Right Reserved.
-      </p>
-    </div>
   </div>
 </template>
